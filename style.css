@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(98, 161, 243);
+    align-items: center;
+
+}
+.container{
+    margin-left: 30em;
+    margin-top: 15em;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 25em;
+    width: 20em;
+    background-color: white;
+}
+.container h3{
+    font-family: 'Times New Roman', ;
+    font-size: 2em;
+}
+.container p{
+    margin-top: 1.5em;
+    font-family: 'Times New Roman',;
+    font-size: 1.5em;
+}
+.container button{
+    width: 50%;
+    height: 75px;
+    border: .3em solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5ms ease;
+}
+.container button:hover{
+    letter-spacing: 5px;
+    font-size: large;
+    background-color: rgb(65, 158, 245);
+
+}
