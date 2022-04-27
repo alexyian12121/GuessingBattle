@@ -17,6 +17,11 @@
 
    //how many times user try to guess
    var tryuntildie=0;
+//random location of the ship
+         loc1=String(Math.floor(Math.random()*25));
+         loc2=String(Math.floor(Math.random()*25));
+         loc3=String(Math.floor(Math.random()*25));
+         //since 24  po ang max number kaya po 25 ang limit ibig sabhin po mag eend sya bago 25 means hanggang 24 lan po 
 
 
     function StartGame(){
@@ -26,11 +31,7 @@
         //start a game
         while (ShipSunk==false){
 
-              //random location of the ship
-         loc1=String(Math.floor(Math.random()*25));
-         loc2=String(Math.floor(Math.random()*25));
-         loc3=String(Math.floor(Math.random()*25));
-         //since 24  po ang max number kaya po 25 ang limit ibig sabhin po mag eend sya bago 25 means hanggang 24 lan po 
+              
       
             var guess=prompt("You only have " + lives +" to guess "+" Enter A number From 0-24 ");
             
